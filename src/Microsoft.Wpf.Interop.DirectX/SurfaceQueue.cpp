@@ -40,9 +40,9 @@
 //-----------------------------------------------------------------------------
 HRESULT CreateDeviceWrapper(IUnknown* pUnknown, ISurfaceQueueDevice** ppDevice)
 {
-    IDirect3DDevice9Ex* pD3D9Device;
-    ID3D10Device*       pD3D10Device;
-    ID3D11Device*       pD3D11Device;
+    IDirect3DDevice9Ex* pD3D9Device = nullptr;
+    ID3D10Device*       pD3D10Device = nullptr;
+    ID3D11Device*       pD3D11Device = nullptr;
 
     HRESULT hr = S_OK;
     *ppDevice  = NULL;
