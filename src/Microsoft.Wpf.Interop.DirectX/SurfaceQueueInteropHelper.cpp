@@ -24,7 +24,7 @@ namespace Microsoft {
 #ifdef _DEBUG
                     // To debug DirectX, uncomment the following lines:
 
-                    //DeviceFlags |= D3D10_CREATE_DEVICE_DEBUG;
+                    DeviceFlags |= D3D10_CREATE_DEVICE_DEBUG;
                     //dwShaderFlags	|= D3D10_SHADER_DEBUG;
 #endif
 
