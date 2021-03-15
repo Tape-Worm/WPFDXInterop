@@ -80,15 +80,11 @@
     <IncludePath>$(IncludePath)</IncludePath>
     <LibraryPath>$(LibraryPath)</LibraryPath>
     <OutDir>$(SolutionDir)Dependencies\Microsoft.Wpf.Interop.DirectX\$(Platform)\$(Configuration)\</OutDir>
-    <LinkKeyFile>D:\Code\GorgonFull.snk</LinkKeyFile>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
     <IncludePath>$(IncludePath)</IncludePath>
     <LibraryPath>$(LibraryPath)</LibraryPath>
-    <WindowsMetadataLinkKeyFile>
-    </WindowsMetadataLinkKeyFile>
-    <LinkKeyFile>D:\Code\GorgonFull.snk</LinkKeyFile>
     <OutDir>$(SolutionDir)Dependencies\Microsoft.Wpf.Interop.DirectX\$(Platform)\$(Configuration)\</OutDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
