@@ -45,9 +45,10 @@
     <Keyword>Win32Proj</Keyword>
     <TargetName>Microsoft.Wpf.Interop.DirectX</TargetName>
     <RootNamespace>Microsoft.Wpf.Interop.DirectX</RootNamespace>
-    <TargetFramework>net6.0</TargetFramework>
-    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <TargetFramework>net8.0</TargetFramework>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
     <ProjectName>Microsoft.Wpf.Interop.DirectX_winsdk</ProjectName>
+    <WindowsTargetPlatformMinVersion>7.0</WindowsTargetPlatformMinVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
