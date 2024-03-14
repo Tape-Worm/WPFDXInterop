@@ -46,7 +46,7 @@
     <TargetName>Microsoft.Wpf.Interop.DirectX</TargetName>
     <RootNamespace>Microsoft.Wpf.Interop.DirectX</RootNamespace>
     <TargetFramework>net8.0</TargetFramework>
-    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
     <ProjectName>Microsoft.Wpf.Interop.DirectX_winsdk</ProjectName>
     <WindowsTargetPlatformMinVersion>7.0</WindowsTargetPlatformMinVersion>
   </PropertyGroup>
