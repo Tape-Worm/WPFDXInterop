@@ -101,7 +101,7 @@
       <GenerateXMLDocumentationFiles>true</GenerateXMLDocumentationFiles>
     </ClCompile>
     <Link>
-      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
       <AdditionalDependencies>
       dxgi.lib;d3d9.lib;d3d10_1.lib;%(AdditionalDependencies)
       </AdditionalDependencies>
